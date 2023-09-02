@@ -1,0 +1,167 @@
+/************************************TAG SELECTORS********************************/    
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    /* background-image: linear-gradient(rgb(15, 187, 67),rgb(31, 211, 172)); */
+    background-color: #121212;
+    text-align: center;    
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+    
+hr {
+    color: rgb(255, 255, 255);
+    border-style: none;
+    border-top: dotted;
+    border-width: 5px;
+    height: 20px;
+    width: 20%;  
+    margin: 0 auto 0 auto;      
+}
+
+h1{
+    color: #eb4141;
+    font-style: italic;
+    font-size: 250%;
+    font-family: 'sacramento', serif;
+}
+
+h3{
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+}
+
+
+
+
+/***********************************CLASS SELECTORS*******************************/
+.home_botton{
+    width: 75px;
+    height: 75px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 0 10px 10px 0;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 25px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(69,7,7,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+.arrow{
+    color: white;
+}
+
+.main_head{
+    display: grid;
+    grid-template-columns: 280px 400px ;
+    column-gap: 100px;
+    margin: 20px 75px 75px 75px;
+    height: 350px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(218, 201, 201);
+    border-radius: 150px;
+}
+
+.headL{
+    display: inline-block;
+    position: relative;
+    
+}
+
+.headR{
+    display: inline-block; 
+    position: relative;
+    
+
+}
+
+.profile_Img {
+    height: 272px;      
+    border-radius: 50%;
+}
+
+.hr1{
+    border-style: none;
+    border-top: dotted;
+    border-width: 5px;
+    height: 20px;
+    width: 70%;  
+    margin: 50px 15% 50px 15% ; 
+}
+
+.container{
+    height: 220px;
+    width: auto;
+    text-align: center;
+}
+
+.being_a_student{
+    display: block;
+    font-size: 25px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    margin: 0 388px;
+}
+
+.year{
+    display: inline-block;
+    position: relative;
+    margin-right: 220px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.place{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    font-size: 18px;    
+}
+
+.hr2{
+    border-style: none;
+    border-top: dotted;
+    border-width: 5px;
+    height: 20px;
+    width: 50%;
+    margin: 50px 25% 50px 25% ;
+}
+
+
+.table-cantacts{
+    margin: 20px auto 0 auto;
+}
+
+.contact :hover{
+    background-color: rgb(255, 102, 0);
+}
+
+.table1{
+    margin: 0 auto;
+}
+
+.table-attending{
+    margin: 0 auto;
+}
+
+.table-skills{
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.table-lover{
+    margin: 0 auto;
+}
+
+
+
+/***********************************ID SELECTOR**********************************/
+#Heading{
+    color: #eb4141;
+    text-shadow: 1px 1px 5px #eb4141;
+}
